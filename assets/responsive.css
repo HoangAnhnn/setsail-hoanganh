@@ -1,0 +1,271 @@
+
+/* full-screen */
+@media  (min-width: 1024px) {
+    .header-small {
+        display:none;
+    }
+    .grid__normal {
+        width: 1300px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media  (max-width: 1299px) {
+    .text-morre {
+        display: none;
+    }
+    .more {
+        min-width: auto;
+        padding-right: 0;
+    }
+
+    .content-popular-descriptions {
+        padding-right: 0;
+    }
+    .content-description {
+        padding-right: 22px;
+
+    }
+
+    .nav-sup__special-list {
+        min-width: 265px;
+    }
+}
+
+/* screen dươi 1300px */
+@media  (max-width: 1299px) and (min-width: 1180px) {
+    .grid__duoi {
+        width: 1100px;
+        /* max-width: 100%; */
+        margin: 0 auto;
+    }
+    
+}
+
+@media  (max-width: 1179px) and (min-width: 799px) {
+
+    .grid__col-duoi-full{
+        width: 100%
+    }
+
+    .grid__col-duoi-50{
+        width: 50%
+    }
+}
+
+/* duoi 1180 */
+@media  (max-width: 1179px) and (min-width: 1024px) {
+    .grid__duoi-duoi {
+        width: 952px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    
+    .content-popular-right {
+        text-align: center;
+    }
+    .content-img-text {
+        font-size: 1.6rem;
+
+    }
+
+    .content-history-list{
+        margin-bottom: 30px;
+    }
+    .footer-container-chung {
+        margin-bottom: 50px;
+    }
+    
+    .footer-contact-icon {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* gan nho */
+@media  (max-width: 1023px) and (min-width: 800px) {
+    .grid__gan-nho {
+        width: 760px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .grid_col-gan-nho-3 {
+        width: 33.33333%;
+    }
+    .grid_col-gan-nho-6 {
+        width: 66.66666%;
+    }
+
+    .grid__row-gan-nho{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .grid_col-gan-nho-5 {
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .content-popular-right {
+        text-align: center;
+    }
+    .footer-container-chung {
+        margin-bottom: 50px;
+    }
+    .content-history-list{
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 799px) {
+    .grid__nho {
+        width: 700px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+   .more {
+       display: none;
+   }
+
+}
+
+@media (max-width:1024px) {
+
+    .slider-img {
+        height: 50rem;
+    }
+    .above {
+        display: none;
+    }
+    .header,
+    .logo {
+        display: none;
+    }
+
+    .header-small {
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        padding: 0 30px;
+        margin-bottom: 70px;
+    }
+
+
+   
+
+    .header-small-icon {
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .header-small-logo {
+
+    }
+
+    .header-small-logo-img {
+        height: 36px;
+        color: #fff;
+
+    }
+
+    .header-small-icon-ii {
+        font-size:  2.2rem;
+        color: #fff;
+
+    }
+    .header-small-sgin {
+
+    }
+
+    .header-small-icon {
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 740px) {
+    .grid__tablet {
+        width: 600px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .grid__row-tablet-special  {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .grid__col-tablet-5 {
+        width: 50%;
+    }
+    .grid__col-tablet-10 {
+        width: 100%;
+    }
+
+    .grid__col-tablet-5-special{
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-history-list {
+        margin-bottom: 30px;
+    }
+
+    .space-content {
+        margin-bottom: 33px;
+    }
+
+    .oder-flex-1 {
+        order: 1;
+    }
+    .oder-flex-2 {
+        order: 3;
+    }
+    .oder-flex-3 {
+        order: 2;
+    }
+    .oder-flex-4 {
+        order: 4;
+    }
+}
+
+
+@media (max-width: 740px) {
+    .grid__mobile {
+        width: 350px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .grid__col-mobile-5 {
+        width: 50%;
+    }
+    .grid__col-mobile-10 {
+        width: 100%;
+    }
+
+    .rate-container-info {
+        margin: auto 0;
+        padding: 0;
+    }
+    .content-img-no {
+        margin-bottom: 60px;
+    }
+
+    .slider-img {
+        margin-bottom: 20PX;
+    }
+
+    .magin-mobile {
+        margin-bottom: 60px;
+    }
+    .space-content {
+        margin-bottom: 33px;
+    }
+}
